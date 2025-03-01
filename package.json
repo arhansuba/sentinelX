@@ -1,0 +1,19 @@
+{
+  "name": "sentinel-project",
+  "version": "1.0.0",
+  "description": "A project with frontend and backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:backend && npm run start:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sentinel-project": "file:"
+  }
+}
